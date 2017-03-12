@@ -67,7 +67,7 @@
   float: left; }
 
 .slicknav_menu {
-  background: #11c3f1 none repeat scroll 0 0;
+  background: #00AEF0 none repeat scroll 0 0;
   box-sizing: border-box;
   font-size: 16px;
   padding: 5px;
@@ -75,10 +75,10 @@
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #11C3F1;
+    color: #00AEF0;
     font-weight: bold; }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #11C3F1; }
+    background-color: #00AEF0; }
 
 .slicknav_btn {
   margin: 5px 5px 6px;
@@ -117,7 +117,7 @@
     color: #fff; }
     .slicknav_nav a:hover {
       background: #fff;
-      color: #11C3F1; }
+      color: #00AEF0; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {

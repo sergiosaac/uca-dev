@@ -9,11 +9,12 @@
     <!--Responsive Meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Title-->
-    <title>FC Transport | Blog</title>
-    <!--Bootstrap Css-->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <!--Font-awesome-->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Blog UCA</title>
+    <!--Bootstrap Css
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="<?= base_url() ?>estilos/css/bootstrap.css" rel="stylesheet">
+    <!--Font-awesome
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">-->
     <!--Fonts Form Google Web Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
@@ -157,7 +158,8 @@
                                 <li><a href="service.html">Service</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul>
-                                        <li><a href="service-datails.html">Service Datials</a></li>                                       <li><a href="get-a-quate.html">Get a quate</a></li>
+                                        <li><a href="service-datails.html">Service Datials</a></li>
+                                        <li><a href="get-a-quate.html">Get a quate</a></li>
                                         <li><a href="single-post.html">single posst</a></li>
                                         <li><a href="faq.html">faqs</a></li>
                                         <li><a href="404.html">not found</a></li>
