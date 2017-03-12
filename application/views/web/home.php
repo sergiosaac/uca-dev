@@ -22,11 +22,11 @@
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="blog_sidebar">
                             <div class="single_blog_sidebar">
-                                <h3>Search for posts</h3>
+                                <h3>Buscar:</h3>
                                 <input type="text" placeholder="Search..">
                             </div>
                             <div class="single_blog_sidebar">
-                                <h3>recent post</h3>
+                                <h3>Útimas pubicaciones</h3>
                                 <div class="post_tum">
                                     <a href=""><img class="alignleft" src="img/blog/blog_tum_1.jpg" alt=""></a>
                                     <p>Now the world don't move to the beat of just <span>June 27, 2015</span></p>
@@ -72,8 +72,8 @@
                             </div>
                         </div>
                     </div>
-                    <?php  for ($i = 0; $i < 4; $i++) { ?>
-                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <?php  for ($i = 0; $i < 10; $i++) { ?>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="single_blog">
                                 <div class="blog_img">
                                     <a href="#"><img src="https://unsplash.it/<?= rand(550,700) ?>" alt=""></a>
@@ -84,8 +84,8 @@
                                 </div>
                                 <div class="blog_content blog_page">
                                     <p class="blog_name">By  /  John Smith  /  In Packing Tips</p>
-                                    <h3><a href="#">that started from this tropic port aboard this tiny ship the last Battlestar</a></h3>
-                                    <p>I guess well never know. Its like a kind of torture to have to watch the show? So get a witch's shawl on a broomstick you can crawl on. Were gonna pay a call on the Addams Family. I guess well never know. Its like a kind of torture to have to watch the show? So get a witch's shawl on a broomstick you can crawl on.</p>
+                                    <h3><a href="#">that started from this tropic port</a></h3>
+                                    <p>tch's shawl on a broomstick you can's shawl on a broomstick you can crawl on.</p>
                                 </div>
                             </div>
                         </div>

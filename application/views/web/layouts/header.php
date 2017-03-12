@@ -64,32 +64,6 @@
 
 <!--Start Header area -->
 <div class="header_area">
-    <div class="header_top_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="header_top_menu">
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-md-offset-6 col-lg-offset-6">
-                    <div class="header_social_bookmark">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="header_bottom_area">
         <div class="container">
             <div class="row">
