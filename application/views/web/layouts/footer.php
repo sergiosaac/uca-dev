@@ -58,6 +58,15 @@
                                 <li><a href="#">servicios 5</a></li>
                             </ul>
                         </div>
+                        <div class="col-md-6 col-lg-6">
+                            <ul>
+                                <li><a href="#">mas servicios 1</a></li>
+                                <li><a href="#">mas servicios 2</a></li>
+                                <li><a href="#">mas servicios 3</a></li>
+                                <li><a href="#">mas servicios 4</a></li>
+                                <li><a href="#">mas servicios 5</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3">
