@@ -6,73 +6,61 @@
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         <div class="single_blog">
                             <div class="blog_img">
-                               <a href="#"> <img src="https://unsplash.it/<?= rand(550,700) ?>" alt=""></a>
+                               <a href="#"> <img src="https://unsplash.it/<?= rand(200,400) ?>" alt=""></a>
                                 <div class="blog_date">
                                     <p class="Blog_month">24 <span>June</span></p>
                                     <p class="blog_year">2015</p>
                                 </div>
                             </div>
                             <div class="blog_content blog_page">
-                                <p class="blog_name">By  /  John Smith  /  In Packing Tips</p>
-                                <h3><a href="#">Its mission to explore strange new worlds to seek out new life and new</a></h3>
-                                <p>Just two good ol' boys Never meanin' no harm. Beats all you've ever saw been in trouble with the law since the day they was born. You wanna be where you can see our troubles are all the same. You wanna be where everybody knows Your name. Boy the way Glen Miller played. </p>
-                            </div>
+                                    <p class="blog_name"><?= $postPrincipal->tema_post ?></p>
+                                    <h3><a href="#"><?= $postPrincipal->titulo_post ?></a></h3>
+                                    <p><?= substr($postPrincipal->descripcion_corta_post, 0, 70) . '...' ?></p>
+                                </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="blog_sidebar">
+                            
                             <div class="single_blog_sidebar">
                                 <h3>Buscar:</h3>
                                 <input type="text" placeholder="Search..">
                             </div>
+
                             <div class="single_blog_sidebar">
+                                
                                 <h3>Útimas pubicaciones</h3>
+                                <?php foreach ($postUltimos as $p) { ?>
                                 <div class="post_tum">
-                                    <a href=""><img class="alignleft" src="img/blog/blog_tum_1.jpg" alt=""></a>
-                                    <p>Now the world don't move to the beat of just <span>June 27, 2015</span></p>
+                                    <a href=""><img width="60" height="60" class="alignleft" src="https://unsplash.it/<?= rand(55,70) ?>" alt=""></a>
+                                    <p><?= substr($p->descripcion_corta_post, 0, 50) . '...' ?> 
+                                    
+                                    <span><?= $p->fecha_creacion_array['mes'] ?> <?= $p->fecha_creacion_array['dia'] ?>, <?= $p->fecha_creacion_array['anho'] ?></span>
+                                    
+                                    </p>
                                 </div>
-                                <div class="post_tum">
-                                    <a href=""><img class="alignleft" src="img/blog/blog_tum_2.jpg" alt=""></a>
-                                    <p>Takin' a break from all your worries  would help <span>June 27, 2015</span></p>
-                                </div>
-                                <div class="post_tum">
-                                    <a href=""><img class="alignleft" src="img/blog/blog_tum_3.jpg" alt=""></a>
-                                    <p>We're gonna make our dreams come true <span>June 27, 2015</span></p>
-                                </div>
+                                <?php } ?>
+
                             </div>
                             <div class="single_blog_sidebar">
                                 <h3>catagories</h3>
                                 <div class="catagories_list">
                                     <ul>
-                                        <li><a href="">Business </a></li>
-                                        <li><a href="">Commercial Relocation</a></li>
-                                        <li><a href="">Corporate Relocation</a></li>
-                                        <li><a href="">Experienced Drivers</a></li>
-                                        <li><a href="">Fast Moving Services</a></li>
-                                        <li><a href="">Moving Overseas</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog_sidebar">
-                            <div class="single_blog_sidebar">
-                                <h3>social icon</h3>
-                                <div class="social_list">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                        <li><a href=""> Categoria 1</a></li>
+                                        <li><a href=""> Categoria 2</a></li>
+                                        <li><a href=""> Categoria 3</a></li>
+                                        <li><a href=""> Categoria 4</a></li>
+                                        <li><a href=""> Categoria 5</a></li>
+                                        <li><a href=""> Categoría 6</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <?php  for ($i = 0; $i < 10; $i++) { ?>
+
+                    <hr>
+
+                    <?php foreach ($post as $p) { ?>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="single_blog">
                                 <div class="blog_img">
@@ -83,13 +71,13 @@
                                     </div>
                                 </div>
                                 <div class="blog_content blog_page">
-                                    <p class="blog_name">By  /  John Smith  /  In Packing Tips</p>
-                                    <h3><a href="#">that started from this tropic port</a></h3>
-                                    <p>tch's shawl on a broomstick you can's shawl on a broomstick you can crawl on.</p>
+                                    <p class="blog_name"><?= $p->tema_post ?></p>
+                                    <h3><a href="#"><?= $p->titulo_post ?></a></h3>
+                                    <p><?= substr($p->descripcion_corta_post, 0, 70) . '...' ?></p>
                                 </div>
                             </div>
                         </div>
-                    <?php  } ?>
+                    <?php } ?>
                 </div>
             </div>
         </section>
